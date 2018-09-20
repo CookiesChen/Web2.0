@@ -1,0 +1,164 @@
+* {
+    font-family: "Tahoma"; 
+}
+
+.top-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+span {
+    font-weight: bold;
+}
+
+#outcome {
+    transition: all 0.5s;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#maze {
+    position: relative;
+    margin: auto;
+    height: 365px;
+    width: 604px;
+}
+
+.wall {
+    transition: all 1s;
+    background-color: rgb(230, 230, 230);
+}
+
+.wall1 {
+    float: left;
+    height: 61px;
+    width: 180px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.wall2 {
+    float: left;
+    width: 240px;
+    height: 60px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.wall3 {
+    float: left;
+    height: 61px;
+    width: 180px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#left-area {
+    float: left;
+    height: 241px;
+    width: 182px;
+}
+
+.wall4 {
+    float: left;
+    height: 180px;
+    width: 180px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#start {
+    float: left;
+    height: 54px;
+    width: 54px;
+    margin: 1px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgb(145, 255, 140);
+}
+
+.wall5 {
+    float: left;
+    height: 181px;
+    width: 120px;
+    margin-top: 59px;
+    margin-left: 58px;
+    margin-right: 58px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#right-area {
+    float: left;
+    height: 241px;
+    width: 182px;
+}
+
+.wall6 {
+    float: left;
+    height: 180px;
+    width: 180px;
+    margin-bottom: 60px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#end {
+    float: right;
+    height: 54px;
+    width: 54px;
+    margin: 1px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    background-color: rgb(158, 60, 255);
+}
+
+.wall7 {
+    float: left;
+    height: 60px;
+    width: 240px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.wall8 {
+    float: left;
+    height: 61px;
+    width: 120px;
+    border-bottom: 1px solid black;
+}
+
+.wall9 {
+    float: left;
+    height: 60px;
+    width: 240px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.bottom-text{
+    position: relative;
+    margin: auto; 
+    height: 63px;
+    width: 600px;
+}
+
+.bottom-wall{
+    background-color: rgb(230, 230, 230);
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    height: 25px;
+    width: 100px;
+    border: 1px solid black;
+}

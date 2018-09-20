@@ -1,0 +1,75 @@
+img{
+    transition: border-radius 5s;
+    width: 200px;
+    height: 200px;
+}
+img:hover{
+    border-radius: 100%;
+}
+a{  
+    margin-bottom: 30px;
+    transition: font-size  0.5s;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size:40px;
+}
+.heading{
+    animation: change1 2s infinite;
+    font-family: Century Gothic, Futura, Verdana,sans-serif;
+    color:white;
+    font-size: 60px;
+}
+.position{
+    position: absolute;
+    left: 430px;
+    top: 400px;
+}
+.background{
+    animation: change 10s;
+    text-align: center;
+    background-image: url("http://img.lanrentuku.com/img/allimg/1206/5-120601093345.png");
+}
+.text{
+    font-family: Century Gothic, Futura, Verdana,sans-serif;
+    font-size:30px;
+    color:white;
+}
+.border{
+    border: 2px solid #0388AE;
+}
+.price{
+    animation:change2 2s infinite;
+}
+.ask{
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    font-size: 40pt;
+    font-family: Century Gothic, Futura, Verdana,sans-serif;
+}
+.answer{ 
+    text-align: left; 
+    font-size: 30px;
+    position: relative;
+    width: 500px;
+    left: 30%;
+}
+@keyframes change{
+    from{background-image: url("http://img.lanrentuku.com/img/allimg/1206/5-120601093353.png");}
+    to{background-image: url("http://img.lanrentuku.com/img/allimg/1206/5-120601093345.png");}
+}
+@keyframes change1{
+    from{color: white;}
+    to{color: #68C1FC}
+}
+@keyframes change2{
+    from{
+        text-decoration: none;
+    }
+    to{
+        text-decoration: line-through;
+        text-decoration-color: red;
+    }
+}

@@ -1,0 +1,111 @@
+#err {
+    transition: all 0.5s;
+    margin: auto;
+    height: 35px;
+    line-height: 35px;
+    width: 150px;
+    text-align: center;
+    margin-top: 130px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 35px;
+}
+
+#form {
+    border: 1px solid black;
+    margin: auto;
+    height: 420px;
+    width: 250px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-image: url("../img/img.jpg");
+    background-size: 250px 420px;
+}
+
+#sign {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+input{
+    background-color: transparent;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.input-box {
+    height: 40px;
+    font-size: 17px;
+    width: 250px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#submit{
+    transition: all 0.5s;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-left: 70px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+#reset {
+    transition: all 0.5s;
+    height: 30px;
+    line-height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 70px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+}
+
+#reset:hover,#submit:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+
+#reset:focus,#submit:focus {
+    outline: none;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.show {
+    opacity: 1;
+}
+
+.hide {
+    opacity: 0;
+}
+
+#my_username, #my_phone, #my_number, #my_email {
+    text-align: center;
+    border: none;
+    width: 165px;
+}
+
+#username, #phone, #number, #email {
+    text-align: left;
+    border: none;
+    width: 165px;
+}
+
+#icon {
+    font-size: 40px;
+    margin-top: 10px;
+}

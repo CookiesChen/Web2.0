@@ -1,0 +1,88 @@
+* {
+    font-family: "Tahoma"; 
+    font-size: 14px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-text {
+    text-align: center;
+}
+
+.information {
+    position: relative;
+    width: 320px;
+    height: 100px;
+    margin: auto;
+}
+
+#start-stop {
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#information-time {
+    display: inline-block;
+}
+
+#time {
+    position: absolute;
+    border: 1px solid black;
+    text-align: center;
+    width: 62px;
+    height: 20px;
+    transform: translate(0px, -15px);
+}
+
+#time-bar {
+    transition: all 0.5s;
+    position: absolute;
+    width: 64px;
+    height: 22px;
+    transform: translate(0px, -15px);
+}
+
+#game-state {
+    border: 1px solid black;
+    position: relative;
+    width: 162px;
+    margin-right: 30px;
+}
+
+#score {
+    border: 1px solid black;
+    text-align: center;
+    width: 62px;
+}
+
+#mole-area {
+    position: relative;
+    margin: auto;
+    width: 260px;
+    height: 130px;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    margin-bottom: 20px;
+}
+
+.button {
+    margin: 3px 7px 0px 5px;
+}
+
+.instruction {
+    width: 600px;
+    position: relative;
+    margin: auto;
+    font-size: 15px;
+}
+
+span {
+    font-weight: bold;
+    font-size: 15px;
+}
